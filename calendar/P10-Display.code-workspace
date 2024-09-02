@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../P10-Display"
+		},
+		{
+			"path": "C:/xampp/htdocs/P10UIpro"
+		},
+		{
+			"path": "C:/xampp/htdocs/conatctsupdate"
+		},
+		{
+			"path": "../../Calendar"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "P10-Display"
+	}
+}

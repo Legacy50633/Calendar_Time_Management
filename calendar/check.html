@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select2 with jQuery 3.7</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.1.0-rc.0/css/select2.min.css" rel="stylesheet" />
+</head>
+<body>
+
+<select id="mySelect" style="width: 150px;" multiple="multiple">
+    <option value="1">Option 1</option>
+    <option value="2">Option 2</option>
+    <option value="3">Option 3</option>
+    <!-- Add more options here if needed -->
+</select>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.1.0-rc.0/js/select2.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#mySelect').select2();
+    });
+</script>
+
+</body>
+</html>

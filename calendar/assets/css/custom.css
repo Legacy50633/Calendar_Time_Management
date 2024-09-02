@@ -1,0 +1,117 @@
+
+.box{
+    /* border: 1px solid;
+    padding: 10px; */
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.button-container label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 8px 10px;
+    border-radius: 5px;
+    border: 0;
+    background-color: royalblue;
+    box-shadow: rgb(0 0 255 / 5%) 0 0 7px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    transition: all .5s ease;
+    color: white;
+}
+
+button:hover {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+}
+
+button:active {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  #counter {
+    font-size: 18px;
+    font-weight: bold;
+    min-width: 30px;
+    text-align: center;
+}

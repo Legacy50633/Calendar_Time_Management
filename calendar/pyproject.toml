@@ -1,0 +1,10 @@
+[project]
+name = "fullcalendar"
+version = "0.2.0"
+description = "fullcalendar using php and python"
+authors = ["prasanna <prasanna110600@gmail.com>"]
+license = "MIT"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
